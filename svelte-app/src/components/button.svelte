@@ -1,30 +1,17 @@
 <script>
-  // No JavaScript logic is required for this simple example
+    export let label = "Click me";
 </script>
-
+  
 <style>
-  /* Set the background color to black */
-  body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-
-  /* Style the green button */
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: green;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+    button {
+      background-color: green;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
 </style>
-
-<main>
-  <!-- Create a green button -->
-  <button on:click={() => alert('Button clicked!')}>Click me</button>
-</main>
+  
+<button>{label}</button>
+  
