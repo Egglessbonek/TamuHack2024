@@ -1,7 +1,7 @@
 <script>
     export let label = "Click me";
 </script>
-  
+
 <style>
     button {
         background-color: green;
