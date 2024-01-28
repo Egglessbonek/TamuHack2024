@@ -1,0 +1,26 @@
+<script>
+    import Button from '../components/Button.svelte';
+</script>
+  
+<style>
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+    }
+</style>
+
+<main>
+    <Button 
+        label="Click me now"
+        
+    ></Button>
+</main>
+  
