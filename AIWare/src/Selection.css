@@ -23,7 +23,7 @@
     height: 4rem;
     width: 8rem;
     text-align: center;
-    transition: all 1s ease;
+    transition: all 0.25s ease;
 }
 
 .selection-button:hover {

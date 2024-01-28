@@ -15,9 +15,11 @@
   --dark-blue: #283339;
   --dark-green: #32434a;
   --mint-green: #9cfda1;
-  --blue-mint-green: #9cfdd2;
+  --pink-gum: #fd9cc7;
+  --blue-mint-green:#9cfdd2 ;
   --olive: #d9ead3;
   --light-yellow: #fff2cc;
+  --red: rgb(233, 56, 25);
 }
 
 a {
@@ -42,22 +44,51 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+.teaching-header {
+  font-size: 1.6em;
+  line-height: 1.1;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+h2 {
+  font-size: 1.6em;
+  line-height: 1.1;
+  margin-bottom: -10px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.1;
+  margin-bottom: -1em;
+}
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
+  position: relative;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
+  z-index: 99;
 
   transition: border-color 0.25s;
 }
 
 button:hover {
   border-color: #646cff;
+
+  filter: brightness(125%);
+  color: var(--black);
 }
+
+button:active{
+  filter: brightness(75%);
+  color: var(--black);
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

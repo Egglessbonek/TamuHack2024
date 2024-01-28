@@ -1,42 +1,125 @@
 {
     "Accessories": {
-        "ai": "/public/assets/Images/cropped/ai/Accessories",
-        "real": "/public/assets/Images/cropped/real/Accessories"
+        "ai": [
+            "/assets/Images/cropped/ai/Accessories/Absolute_Reality_v16_person_wearing_gloves_and_beanie_with_a_b_0.jpg",
+            "/assets/Images/cropped/ai/Accessories/A skateboarder coming off a jump too early.jpg",
+            "/assets/Images/cropped/ai/Accessories/accerosires.jpg",
+            "/assets/Images/cropped/ai/Accessories/detail.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Accessories/musician-835781_1920.jpg",
+            "/assets/Images/cropped/real/Accessories/winter-3016302_1920.jpg",
+            "/assets/Images/cropped/real/Accessories/girl-7560413_1920.jpg",
+            "/assets/Images/cropped/real/Accessories/kitty-2948404_1920.jpg",
+            "/assets/Images/cropped/real/Accessories/skateboarding-6973365_1920.jpg"
+        ]
     },
     "Detail": {
-        "ai": "/public/assets/Images/cropped/ai/Detail",
-        "real": "/public/assets/Images/cropped/real/Detail"
+        "ai": [
+            "/assets/Images/cropped/ai/Detail/detailcity.jpg",
+            "/assets/Images/cropped/ai/Detail/detail city2.jpg",
+            "/assets/Images/cropped/ai/Detail/detail leaf.jpg",
+            "/assets/Images/cropped/ai/Detail/brick.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Detail/wall-21534_1920.jpg",
+            "/assets/Images/cropped/real/Detail/skyline-255116_1920.jpg",
+            "/assets/Images/cropped/real/Detail/butterbur-3469942_1920.jpg",
+            "/assets/Images/cropped/real/Detail/kuala-lumpur-1820944_1920.jpg"
+        ]
     },
-    "Faces": {  
-        "ai": "/public/assets/Images/cropped/ai/Faces",
-        "real": "/public/assets/Images/cropped/real/Faces"
+    "Faces": {
+        "ai": [
+            "/assets/Images/cropped/ai/Faces/Absolute_Reality_v16_young_chinese_boy_close_up_of_face_0.jpg",
+            "/assets/Images/cropped/ai/Faces/PhotoReal_a_close_up_of_a_face_of_an_older_black_woman_0.jpg",
+            "/assets/Images/cropped/ai/Faces/PhotoReal_face_of_a_mexican_man_0.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Faces/boy-6781192_1920.jpg",
+            "/assets/Images/cropped/real/Faces/bussiness-man-1236049_1920.jpg",
+            "/assets/Images/cropped/real/Faces/businessman-1247947_1920.jpg"
+        ]
     },
     "Fingers": {
-        "ai": "/public/assets/Images/cropped/ai/Fingers",
-        "real": "/public/assets/Images/cropped/real/Fingers"
+        "ai": [
+            "/assets/Images/cropped/ai/Fingers/Absolute_Reality_v16_person_wearing_a_tuxedo_0.jpg",
+            "/assets/Images/cropped/ai/Fingers/PhotoReal_handshake_between_two_hands_0.jpg",
+            "/assets/Images/cropped/ai/Fingers/Absolute_Reality_v16_realistic_photo_of_a_hand_0.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Fingers/prayer-1308663_1920.jpg",
+            "/assets/Images/cropped/real/Fingers/hands-1327811_1920.jpg"
+        ]
     },
     "Hair": {
-        "ai": "/public/assets/Images/cropped/ai/Hair",
-        "real": "/public/assets/Images/cropped/real/Hair"
+        "ai": [
+            "/assets/Images/cropped/ai/Hair/Absolute_Reality_v16_kid_with_blowing_hair_0.jpg",
+            "/assets/Images/cropped/ai/Hair/hair.jpg",
+            "/assets/Images/cropped/ai/Hair/Absolute_Reality_v16_man_with_long_hair_0.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Hair/sense-3277815_1920.jpg",
+            "/assets/Images/cropped/real/Hair/portrait-3052641_1920.jpg"
+        ]
     },
     "Light": {
-        "ai": "/public/assets/Images/cropped/ai/Light",
-        "real": "/public/assets/Images/cropped/real/Light"
+        "ai": [
+            "/assets/Images/cropped/ai/Light/PhotoReal_street_light_at_night_0.jpg",
+            "/assets/Images/cropped/ai/Light/reflection.jpg",
+            "/assets/Images/cropped/ai/Light/Absolute_Reality_v16_ocean_wave_0.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Light/bridge-6314795_1920.jpg",
+            "/assets/Images/cropped/real/Light/rain-2538429_1920.jpg",
+            "/assets/Images/cropped/real/Light/wave-2089959_1920.jpg"
+        ]
     },
     "Subject": {
-        "ai": "/public/assets/Images/cropped/ai/Subject",
-        "real": "/public/assets/Images/cropped/real/Subject"
+        "ai": [
+            "/assets/Images/cropped/ai/Subject/Unicorn standing in sunbeams in the forest.jpg",
+            "/assets/Images/cropped/ai/Subject/cat riding motorbike.jpg",
+            "/assets/Images/cropped/ai/Subject/Absolute_Reality_v16_realistic_ufo_image_0.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Subject/horse-1201143_1920.jpg",
+            "/assets/Images/cropped/real/Subject/tiger-3264048_1920.jpg",
+            "/assets/Images/cropped/real/Subject/frog-2504507_1920.jpg"
+        ]
     },
     "Text": {
-        "ai": "/public/assets/Images/cropped/ai/Text",
-        "real": "/public/assets/Images/cropped/real/Text"
+        "ai": [
+            "/assets/Images/cropped/ai/Text/Absolute_Reality_v16_close_up_of_a_page_of_a_book_0.jpg",
+            "/assets/Images/cropped/ai/Text/Absolute_Reality_v16_calendar_0.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Text/dictionary-1619740_1920.jpg",
+            "/assets/Images/cropped/real/Text/planner-3820633_1920.jpg"
+        ]
     },
     "Texture": {
-        "ai": "/public/assets/Images/cropped/ai/Texture",
-        "real": "/public/assets/Images/cropped/real/Texture"
+        "ai": [
+            "/assets/Images/cropped/ai/Texture/teture steak.jpg",
+            "/assets/Images/cropped/ai/Texture/jeans texture.jpg",
+            "/assets/Images/cropped/ai/Texture/apple.jpg",
+            "/assets/Images/cropped/ai/Texture/texture suit scaled.jpg",
+            "/assets/Images/cropped/ai/Texture/texture suit 2.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Texture/man-3037342_1920.jpg",
+            "/assets/Images/cropped/real/Texture/apple-256261_1920.jpg",
+            "/assets/Images/cropped/real/Texture/jeans-2979818_1920.jpg",
+            "/assets/Images/cropped/real/Texture/food-2803655_1920.jpg",
+            "/assets/Images/cropped/real/Texture/screw-1924174_1920.jpg"
+        ]
     },
     "Watermark": {
-        "ai": "/public/assets/Images/cropped/ai/Watermark",
-        "real": "/public/assets/Images/cropped/real/Watermark"
+        "ai": [
+            "/assets/Images/cropped/ai/Watermark/plant dalle.jpg",
+            "/assets/Images/cropped/ai/Watermark/dalle house.jpg"
+        ],
+        "real": [
+            "/assets/Images/cropped/real/Watermark/basketball-6763978_1920.jpg",
+            "/assets/Images/cropped/real/Watermark/america-3125467_1920.jpg"
+        ]
     }
 }

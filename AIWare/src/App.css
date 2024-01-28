@@ -9,7 +9,8 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 6em;
   font-weight: 400;
-  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
   opacity: 0;
   transform: translateY(-2em);
 
@@ -38,6 +39,35 @@
   }
 }
 
+.title::before{
+  content: '👁️';
+  opacity: 0.1;
+  position: absolute; 
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  line-height: 0;
+  opacity: 0;
+  animation: staring 8s ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+
+@keyframes staring {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.05;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
 .subtitle {
   font-style: italic;
   font-size: 1.5em;
@@ -61,7 +91,8 @@
 .button {
   width: 12rem;
   height: 3rem;
-  transition: all 1s ease;
+  transition: all 0.25s ease;
+  z-index: 1;
 }
 .button:hover {
   width: 14rem;
