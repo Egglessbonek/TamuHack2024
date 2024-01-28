@@ -1,5 +1,5 @@
 <script>
-    import GreenButton from '../components/button.svelte';
+    import Button from '../components/Button.svelte';
 </script>
   
 <style>
@@ -19,6 +19,6 @@
 
 <main>
     <h1>Welcome to the Index page!</h1>
-    <GreenButton label="Click me now"></GreenButton>
+    <Button label="Click me now"></Button>
 </main>
-  
+
