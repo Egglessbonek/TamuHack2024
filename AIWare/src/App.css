@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 6em;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+  opacity: 0;
+  transform: translateY(-2em);
+
+  animation: title-fade-in 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+
+  -webkit-animation: title-fade-in 1.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+
+  -moz-animation: title-fade-in 1.5s ease-in-out;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0.5s;
+}
+
+
+@keyframes title-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 350;
+  opacity: 0.5;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
