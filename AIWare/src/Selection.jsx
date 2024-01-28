@@ -1,43 +1,37 @@
 import './Selection.css'
-
-const categories = [
-  'Accessories',
-  'Detail',
-  'Faces',
-  'Fingers',
-  'Hair',
-  'Light',
-  'Subject Matter',
-  'Text',
-  'Texture',
-  'Watermark'
-]
+import React from 'react';
+import Arrow from './Arrow'
+import Teaching from './Teaching'
 
 function Selection() {
 
+  function goToRef(name) {
+    return () => {
+      location.href = `/game/${name}`;
+    };
+  }
 
   return (
     <>
-      <table className="selection">
-        <tbody>
-          {
-            categories.map((category, index) => {
-              if (index % 2 === 0) {
-                return (
-                  <tr>
-                    <td>
-                      <button className="selection-button">{category}</button>
-                    </td>
-                    <td>
-                      <button className="selection-button">{categories[index + 1]}</button>
-                    </td>
-                  </tr>
-                )
-              }
-            })
-          }
-        </tbody>
-      </table>
+      <div className="selection-div">
+        <div className="left-column-selection">
+          <button className="selection-button" onClick={goToRef("Accessories")}>Accessories</button>
+          <button className="selection-button" onClick={goToRef("Detail")}>Detail</button>
+          <button className="selection-button" onClick={goToRef("Faces")}>Faces</button>
+          <button className="selection-button" onClick={goToRef("Fingers")}>Fingers</button>
+          <button className="selection-button" onClick={goToRef("Hair")}>Hair</button>
+        </div>
+        <div className="right-column-selection">
+          <button className="selection-button" onClick={goToRef("Light")}>Light</button>
+          <button className="selection-button" onClick={goToRef("Subject")}>Subject</button>
+          <button className="selection-button" onClick={goToRef("Text")}>Text</button>
+          <button className="selection-button" onClick={goToRef("Texture")}>Texture</button>
+          <button className="selection-button" onClick={goToRef("Watermark")}>Watermark</button>
+        </div>
+      </div>
+      <a onClick={() => location.href = "/"}>
+          <Arrow />
+      </a>
     </>
   )
 }

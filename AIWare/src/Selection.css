@@ -1,0 +1,33 @@
+.selection-div {
+    display: flex;
+    gap: 10rem;
+}
+
+.left-column-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.right-column-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.selection-button {
+    height: 4rem;
+    width: 8rem;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.selection-button:hover {
+    width: 9rem;
+    height: 4.5rem;
+}
+

@@ -1,0 +1,42 @@
+{
+    "Accessories": {
+        "ai": "/public/assets/Images/cropped/ai/Accessories",
+        "real": "/public/assets/Images/cropped/real/Accessories"
+    },
+    "Detail": {
+        "ai": "/public/assets/Images/cropped/ai/Detail",
+        "real": "/public/assets/Images/cropped/real/Detail"
+    },
+    "Faces": {  
+        "ai": "/public/assets/Images/cropped/ai/Faces",
+        "real": "/public/assets/Images/cropped/real/Faces"
+    },
+    "Fingers": {
+        "ai": "/public/assets/Images/cropped/ai/Fingers",
+        "real": "/public/assets/Images/cropped/real/Fingers"
+    },
+    "Hair": {
+        "ai": "/public/assets/Images/cropped/ai/Hair",
+        "real": "/public/assets/Images/cropped/real/Hair"
+    },
+    "Light": {
+        "ai": "/public/assets/Images/cropped/ai/Light",
+        "real": "/public/assets/Images/cropped/real/Light"
+    },
+    "Subject": {
+        "ai": "/public/assets/Images/cropped/ai/Subject",
+        "real": "/public/assets/Images/cropped/real/Subject"
+    },
+    "Text": {
+        "ai": "/public/assets/Images/cropped/ai/Text",
+        "real": "/public/assets/Images/cropped/real/Text"
+    },
+    "Texture": {
+        "ai": "/public/assets/Images/cropped/ai/Texture",
+        "real": "/public/assets/Images/cropped/real/Texture"
+    },
+    "Watermark": {
+        "ai": "/public/assets/Images/cropped/ai/Watermark",
+        "real": "/public/assets/Images/cropped/real/Watermark"
+    }
+}

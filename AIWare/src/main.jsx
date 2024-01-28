@@ -4,6 +4,7 @@ import App from './App.jsx'
 import About from './About.jsx'
 import Selection from './Selection.jsx'
 import Game from './Game/index.jsx'
+import Teaching from './Teaching.jsx'
 import {
   createBrowserRouter,
   RouterProvider,

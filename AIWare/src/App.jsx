@@ -12,7 +12,7 @@ function App() {
       </div>
 
       <div className="card">
-        <button onClick={() => location.href = "/about"}>
+        <button class="button" onClick={() => location.href = "/about"}>
           Go to About Page
         </button>
       </div>
